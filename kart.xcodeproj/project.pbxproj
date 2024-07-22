@@ -7,36 +7,174 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58532A7A1E82B3D1B137B904 /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039508A01899CD3B6FC0381D /* Pods_OneSignalNotificationServiceExtension.framework */; };
+		7B21BF7E2C4545750070AA05 /* KartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B21BF7D2C4545750070AA05 /* KartModel.swift */; };
+		7B21BF802C4546D70070AA05 /* KartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B21BF7F2C4546D70070AA05 /* KartCell.swift */; };
+		7B33AF532C49314600BF24FD /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33AF522C49314600BF24FD /* LaunchScreen.swift */; };
+		7B33AF562C49477E00BF24FD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33AF552C49477D00BF24FD /* OnboardingView.swift */; };
+		7B3C637F2C4A9A060062A106 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C637E2C4A9A060062A106 /* NotificationService.swift */; };
+		7B3C63832C4A9A060062A106 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7B3C637C2C4A9A060062A106 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7B3C638A2C4AAB290062A106 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C63892C4AAB290062A106 /* AppDelegate.swift */; };
+		7B3C638C2C4AB7950062A106 /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C638B2C4AB7950062A106 /* DeviceInfo.swift */; };
+		7B4F0DE22C46ABAF00CACB9A /* EmployeesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F0DE12C46ABAF00CACB9A /* EmployeesModel.swift */; };
+		7B4F0DE42C46AF6000CACB9A /* EmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F0DE32C46AF6000CACB9A /* EmployeeCell.swift */; };
+		7B4F0DE62C48078400CACB9A /* TrackEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F0DE52C48078400CACB9A /* TrackEditorView.swift */; };
+		7B4F0DE82C4807D800CACB9A /* AddKartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F0DE72C4807D800CACB9A /* AddKartView.swift */; };
+		7B4F0DEA2C48081B00CACB9A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F0DE92C48081B00CACB9A /* ImagePicker.swift */; };
+		7B4F0DED2C48098800CACB9A /* AddEmployeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F0DEC2C48098800CACB9A /* AddEmployeeView.swift */; };
+		7B4F0DF22C48372C00CACB9A /* RepairModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F0DF12C48372C00CACB9A /* RepairModel.swift */; };
+		7B903B9E2C48759700E73073 /* AddRepairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B903B9D2C48759700E73073 /* AddRepairView.swift */; };
 		7BA616A42C4424DF00106B16 /* kartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA616A32C4424DF00106B16 /* kartApp.swift */; };
 		7BA616A62C4424DF00106B16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA616A52C4424DF00106B16 /* ContentView.swift */; };
 		7BA616A82C4424E100106B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA616A72C4424E100106B16 /* Assets.xcassets */; };
 		7BA616AB2C4424E100106B16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA616AA2C4424E100106B16 /* Preview Assets.xcassets */; };
+		7BA616B22C44252600106B16 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA616B12C44252600106B16 /* HomeView.swift */; };
+		7BA616B42C44256400106B16 /* EmployeesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA616B32C44256400106B16 /* EmployeesView.swift */; };
+		7BA616B62C44258100106B16 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA616B52C44258100106B16 /* SettingsView.swift */; };
+		7BA616B82C4425A200106B16 /* RepairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA616B72C4425A200106B16 /* RepairView.swift */; };
+		ABF78A06D2C670D641756954 /* Pods_kart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CFBA104BAC56039EF78E378 /* Pods_kart.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7B3C63812C4A9A060062A106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BA616982C4424DF00106B16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B3C637B2C4A9A060062A106;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7B3C63872C4A9A060062A106 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7B3C63832C4A9A060062A106 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		039508A01899CD3B6FC0381D /* Pods_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B658560CD242FE19455F9A /* Pods-kart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kart.release.xcconfig"; path = "Target Support Files/Pods-kart/Pods-kart.release.xcconfig"; sourceTree = "<group>"; };
+		5D5C5F670576E6E719ABFE8D /* Pods-kart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kart.debug.xcconfig"; path = "Target Support Files/Pods-kart/Pods-kart.debug.xcconfig"; sourceTree = "<group>"; };
+		7B0B64C551F314B6480EF74E /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		7B21BF7D2C4545750070AA05 /* KartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartModel.swift; sourceTree = "<group>"; };
+		7B21BF7F2C4546D70070AA05 /* KartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KartCell.swift; sourceTree = "<group>"; };
+		7B33AF522C49314600BF24FD /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		7B33AF552C49477D00BF24FD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		7B3C63772C4A99980062A106 /* kart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kart.entitlements; sourceTree = "<group>"; };
+		7B3C637C2C4A9A060062A106 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B3C637E2C4A9A060062A106 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		7B3C63802C4A9A060062A106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B3C63882C4A9AE20062A106 /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
+		7B3C63892C4AAB290062A106 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B3C638B2C4AB7950062A106 /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
+		7B4F0DE12C46ABAF00CACB9A /* EmployeesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesModel.swift; sourceTree = "<group>"; };
+		7B4F0DE32C46AF6000CACB9A /* EmployeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCell.swift; sourceTree = "<group>"; };
+		7B4F0DE52C48078400CACB9A /* TrackEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackEditorView.swift; sourceTree = "<group>"; };
+		7B4F0DE72C4807D800CACB9A /* AddKartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddKartView.swift; sourceTree = "<group>"; };
+		7B4F0DE92C48081B00CACB9A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		7B4F0DEC2C48098800CACB9A /* AddEmployeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmployeeView.swift; sourceTree = "<group>"; };
+		7B4F0DF12C48372C00CACB9A /* RepairModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepairModel.swift; sourceTree = "<group>"; };
+		7B903B9D2C48759700E73073 /* AddRepairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRepairView.swift; sourceTree = "<group>"; };
 		7BA616A02C4424DF00106B16 /* kart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA616A32C4424DF00106B16 /* kartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kartApp.swift; sourceTree = "<group>"; };
 		7BA616A52C4424DF00106B16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7BA616A72C4424E100106B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BA616AA2C4424E100106B16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7BA616B12C44252600106B16 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7BA616B32C44256400106B16 /* EmployeesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesView.swift; sourceTree = "<group>"; };
+		7BA616B52C44258100106B16 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7BA616B72C4425A200106B16 /* RepairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepairView.swift; sourceTree = "<group>"; };
+		7CFBA104BAC56039EF78E378 /* Pods_kart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7A28D0A5650FEC66875346 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7B3C63792C4A9A060062A106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58532A7A1E82B3D1B137B904 /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7BA6169D2C4424DF00106B16 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF78A06D2C670D641756954 /* Pods_kart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B3C637D2C4A9A060062A106 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				7B3C63882C4A9AE20062A106 /* OneSignalNotificationServiceExtension.entitlements */,
+				7B3C637E2C4A9A060062A106 /* NotificationService.swift */,
+				7B3C63802C4A9A060062A106 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		7B4F0DEB2C48091400CACB9A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7BA616B12C44252600106B16 /* HomeView.swift */,
+				7B4F0DE52C48078400CACB9A /* TrackEditorView.swift */,
+				7B4F0DE72C4807D800CACB9A /* AddKartView.swift */,
+				7B21BF7D2C4545750070AA05 /* KartModel.swift */,
+				7B21BF7F2C4546D70070AA05 /* KartCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7B4F0DEE2C4809E100CACB9A /* Employees */ = {
+			isa = PBXGroup;
+			children = (
+				7BA616B32C44256400106B16 /* EmployeesView.swift */,
+				7B4F0DEC2C48098800CACB9A /* AddEmployeeView.swift */,
+				7B4F0DE12C46ABAF00CACB9A /* EmployeesModel.swift */,
+				7B4F0DE32C46AF6000CACB9A /* EmployeeCell.swift */,
+			);
+			path = Employees;
+			sourceTree = "<group>";
+		};
+		7B4F0DEF2C480A1100CACB9A /* Repair */ = {
+			isa = PBXGroup;
+			children = (
+				7BA616B72C4425A200106B16 /* RepairView.swift */,
+				7B903B9D2C48759700E73073 /* AddRepairView.swift */,
+				7B4F0DF12C48372C00CACB9A /* RepairModel.swift */,
+			);
+			path = Repair;
+			sourceTree = "<group>";
+		};
+		7B4F0DF02C480A1E00CACB9A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7BA616B52C44258100106B16 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		7BA616972C4424DF00106B16 = {
 			isa = PBXGroup;
 			children = (
 				7BA616A22C4424DF00106B16 /* kart */,
+				7B3C637D2C4A9A060062A106 /* OneSignalNotificationServiceExtension */,
 				7BA616A12C4424DF00106B16 /* Products */,
+				C453B54BE8F68CD628760512 /* Pods */,
+				DEF76597B775C35AA203566F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -44,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				7BA616A02C4424DF00106B16 /* kart.app */,
+				7B3C637C2C4A9A060062A106 /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +190,18 @@
 		7BA616A22C4424DF00106B16 /* kart */ = {
 			isa = PBXGroup;
 			children = (
+				7B3C63772C4A99980062A106 /* kart.entitlements */,
 				7BA616A32C4424DF00106B16 /* kartApp.swift */,
+				7B3C63892C4AAB290062A106 /* AppDelegate.swift */,
 				7BA616A52C4424DF00106B16 /* ContentView.swift */,
+				7B33AF522C49314600BF24FD /* LaunchScreen.swift */,
+				7B33AF552C49477D00BF24FD /* OnboardingView.swift */,
+				7B4F0DEB2C48091400CACB9A /* Home */,
+				7B4F0DEE2C4809E100CACB9A /* Employees */,
+				7B4F0DEF2C480A1100CACB9A /* Repair */,
+				7B4F0DF02C480A1E00CACB9A /* Settings */,
+				7B4F0DE92C48081B00CACB9A /* ImagePicker.swift */,
+				7B3C638B2C4AB7950062A106 /* DeviceInfo.swift */,
 				7BA616A72C4424E100106B16 /* Assets.xcassets */,
 				7BA616A92C4424E100106B16 /* Preview Content */,
 			);
@@ -67,20 +216,62 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		C453B54BE8F68CD628760512 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE7A28D0A5650FEC66875346 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				7B0B64C551F314B6480EF74E /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+				5D5C5F670576E6E719ABFE8D /* Pods-kart.debug.xcconfig */,
+				14B658560CD242FE19455F9A /* Pods-kart.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DEF76597B775C35AA203566F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				039508A01899CD3B6FC0381D /* Pods_OneSignalNotificationServiceExtension.framework */,
+				7CFBA104BAC56039EF78E378 /* Pods_kart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7BA6169F2C4424DF00106B16 /* kart */ = {
+		7B3C637B2C4A9A060062A106 /* OneSignalNotificationServiceExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7BA616AE2C4424E100106B16 /* Build configuration list for PBXNativeTarget "kart" */;
+			buildConfigurationList = 7B3C63842C4A9A060062A106 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
 			buildPhases = (
-				7BA6169C2C4424DF00106B16 /* Sources */,
-				7BA6169D2C4424DF00106B16 /* Frameworks */,
-				7BA6169E2C4424DF00106B16 /* Resources */,
+				36D437486158D84DBBC9022C /* [CP] Check Pods Manifest.lock */,
+				7B3C63782C4A9A060062A106 /* Sources */,
+				7B3C63792C4A9A060062A106 /* Frameworks */,
+				7B3C637A2C4A9A060062A106 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 7B3C637C2C4A9A060062A106 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		7BA6169F2C4424DF00106B16 /* kart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA616AE2C4424E100106B16 /* Build configuration list for PBXNativeTarget "kart" */;
+			buildPhases = (
+				C2725A97C929AE47B5E46F96 /* [CP] Check Pods Manifest.lock */,
+				7BA6169C2C4424DF00106B16 /* Sources */,
+				7BA6169D2C4424DF00106B16 /* Frameworks */,
+				7BA6169E2C4424DF00106B16 /* Resources */,
+				7B3C63872C4A9A060062A106 /* Embed Foundation Extensions */,
+				06DB6254F87EBCEAF9F12E61 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B3C63822C4A9A060062A106 /* PBXTargetDependency */,
 			);
 			name = kart;
 			productName = kart;
@@ -97,6 +288,9 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					7B3C637B2C4A9A060062A106 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					7BA6169F2C4424DF00106B16 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -116,11 +310,19 @@
 			projectRoot = "";
 			targets = (
 				7BA6169F2C4424DF00106B16 /* kart */,
+				7B3C637B2C4A9A060062A106 /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7B3C637A2C4A9A060062A106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7BA6169E2C4424DF00106B16 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,19 +334,173 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06DB6254F87EBCEAF9F12E61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kart/Pods-kart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kart/Pods-kart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kart/Pods-kart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36D437486158D84DBBC9022C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2725A97C929AE47B5E46F96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		7B3C63782C4A9A060062A106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3C637F2C4A9A060062A106 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7BA6169C2C4424DF00106B16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B4F0DED2C48098800CACB9A /* AddEmployeeView.swift in Sources */,
+				7B33AF532C49314600BF24FD /* LaunchScreen.swift in Sources */,
+				7B4F0DEA2C48081B00CACB9A /* ImagePicker.swift in Sources */,
+				7B33AF562C49477E00BF24FD /* OnboardingView.swift in Sources */,
+				7B4F0DE22C46ABAF00CACB9A /* EmployeesModel.swift in Sources */,
+				7BA616B62C44258100106B16 /* SettingsView.swift in Sources */,
+				7BA616B82C4425A200106B16 /* RepairView.swift in Sources */,
+				7B3C638C2C4AB7950062A106 /* DeviceInfo.swift in Sources */,
+				7B903B9E2C48759700E73073 /* AddRepairView.swift in Sources */,
+				7B3C638A2C4AAB290062A106 /* AppDelegate.swift in Sources */,
+				7BA616B42C44256400106B16 /* EmployeesView.swift in Sources */,
+				7B21BF802C4546D70070AA05 /* KartCell.swift in Sources */,
+				7BA616B22C44252600106B16 /* HomeView.swift in Sources */,
+				7B4F0DE82C4807D800CACB9A /* AddKartView.swift in Sources */,
+				7B21BF7E2C4545750070AA05 /* KartModel.swift in Sources */,
+				7B4F0DE62C48078400CACB9A /* TrackEditorView.swift in Sources */,
 				7BA616A62C4424DF00106B16 /* ContentView.swift in Sources */,
 				7BA616A42C4424DF00106B16 /* kartApp.swift in Sources */,
+				7B4F0DE42C46AF6000CACB9A /* EmployeeCell.swift in Sources */,
+				7B4F0DF22C48372C00CACB9A /* RepairModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		7B3C63822C4A9A060062A106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B3C637B2C4A9A060062A106 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 7B3C63812C4A9A060062A106 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		7B3C63852C4A9A060062A106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE7A28D0A5650FEC66875346 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-12233.kart.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B3C63862C4A9A060062A106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B0B64C551F314B6480EF74E /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-12233.kart.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		7BA616AC2C4424E100106B16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -261,19 +617,27 @@
 		};
 		7BA616AF2C4424E100106B16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D5C5F670576E6E719ABFE8D /* Pods-kart.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = kart/kart.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"kart/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kart/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Smart Karting";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.swift;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,19 +653,27 @@
 		};
 		7BA616B02C4424E100106B16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14B658560CD242FE19455F9A /* Pods-kart.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = kart/kart.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"kart/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kart/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Smart Karting";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.swift;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,6 +690,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7B3C63842C4A9A060062A106 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B3C63852C4A9A060062A106 /* Debug */,
+				7B3C63862C4A9A060062A106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7BA6169B2C4424DF00106B16 /* Build configuration list for PBXProject "kart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -1,0 +1,27 @@
+${PODS_ROOT}/Target Support Files/Pods-kart/Pods-kart-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AppMetricaAdSupport/AppMetricaAdSupport.framework
+${BUILT_PRODUCTS_DIR}/AppMetricaCore/AppMetricaCore.framework
+${BUILT_PRODUCTS_DIR}/AppMetricaCoreExtension/AppMetricaCoreExtension.framework
+${BUILT_PRODUCTS_DIR}/AppMetricaCoreUtils/AppMetricaCoreUtils.framework
+${BUILT_PRODUCTS_DIR}/AppMetricaCrashes/AppMetricaCrashes.framework
+${BUILT_PRODUCTS_DIR}/AppMetricaEncodingUtils/AppMetricaEncodingUtils.framework
+${BUILT_PRODUCTS_DIR}/AppMetricaFMDB/AppMetricaFMDB.framework
+${BUILT_PRODUCTS_DIR}/AppMetricaHostState/AppMetricaHostState.framework
+${BUILT_PRODUCTS_DIR}/AppMetricaLog/AppMetricaLog.framework
+${BUILT_PRODUCTS_DIR}/AppMetricaNetwork/AppMetricaNetwork.framework
+${BUILT_PRODUCTS_DIR}/AppMetricaPlatform/AppMetricaPlatform.framework
+${BUILT_PRODUCTS_DIR}/AppMetricaProtobuf/AppMetricaProtobuf.framework
+${BUILT_PRODUCTS_DIR}/AppMetricaProtobufUtils/AppMetricaProtobufUtils.framework
+${BUILT_PRODUCTS_DIR}/AppMetricaStorageUtils/AppMetricaStorageUtils.framework
+${BUILT_PRODUCTS_DIR}/AppMetricaWebKit/AppMetricaWebKit.framework
+${BUILT_PRODUCTS_DIR}/ApphudSDK/ApphudSDK.framework
+${BUILT_PRODUCTS_DIR}/KSCrash/KSCrash.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignal/OneSignalFramework.framework/OneSignalFramework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalCore/OneSignalCore.framework/OneSignalCore
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalExtension/OneSignalExtension.framework/OneSignalExtension
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalInAppMessages/OneSignalInAppMessages.framework/OneSignalInAppMessages
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalLiveActivities/OneSignalLiveActivities.framework/OneSignalLiveActivities
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalNotifications/OneSignalNotifications.framework/OneSignalNotifications
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalOSCore/OneSignalOSCore.framework/OneSignalOSCore
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalOutcomes/OneSignalOutcomes.framework/OneSignalOutcomes
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalUser/OneSignalUser.framework/OneSignalUser
