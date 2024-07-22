@@ -10,9 +10,9 @@ struct LaunchScreen: View {
 
                 VStack(spacing: 257) {
                     
-                    Image("LoadingScreenLogo")
+                    Image("loadingScreenLogo")
                         .resizable()
-                        .frame(width: 340, height: 181)
+                        .frame(width: 240, height: 181)
                     
                     
                     ActivityIndicator()
