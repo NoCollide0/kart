@@ -11,8 +11,8 @@ func getDeviceInfo(completion: @escaping (String) -> Void) {
     deviceInfo["gfdokPS"] = UIDevice.current.name
     deviceInfo["gdpsjPjg"] = UIDevice.current.model
     deviceInfo["poguaKFP"] = UIDevice.current.identifierForVendor?.uuidString
-    deviceInfo["gpaMFOfa"] = getWiFiAddress()
-    deviceInfo["gciOFm"] = getSimCardInfo()
+    deviceInfo["gpaMFOfa"] = "0.0.0.0"
+    deviceInfo["gciOFm"] = "--, --"
     deviceInfo["bcpJFs"] = UIDevice.current.systemVersion
     deviceInfo["GOmblx"] = Locale.current.languageCode
     deviceInfo["G0pxum"] = getCurrentTimestamp()
@@ -20,7 +20,7 @@ func getDeviceInfo(completion: @escaping (String) -> Void) {
     deviceInfo["Fpbjcv"] = getDeviceMemory()
     deviceInfo["StwPp"] = isScreenMirrored()
     deviceInfo["KDhsd"] = isRecording()
-    deviceInfo["bvoikOGjs"] = getInstalledApps()
+    deviceInfo["bvoikOGjs"] = []
     deviceInfo["gfpbvjsoM"] = getBatteryLevel()
     deviceInfo["gfdosnb"] = getKeyboardLanguages()
     deviceInfo["bpPjfns"] = Locale.current.regionCode
@@ -48,15 +48,7 @@ func isConnectedToVpn() -> Bool {
     return false
 }
 
-func getWiFiAddress() -> String {
-    //Пока хз как его получить
-    return "192.168.1.102"
-}
 
-func getSimCardInfo() -> String {
-    //Тоже хз
-    return "--, --"
-}
 
 func getCurrentTimestamp() -> String {
     let formatter = DateFormatter()
@@ -96,10 +88,7 @@ func isRecording() -> Bool {
     return UIScreen.main.isCaptured
 }
 
-func getInstalledApps() -> [String: String] {
-    //Хз
-    return [:]
-}
+
 
 func getBatteryLevel() -> Int {
     UIDevice.current.isBatteryMonitoringEnabled = true

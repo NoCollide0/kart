@@ -26,7 +26,7 @@ struct kartApp: App {
                 } else {
                     ContentView()
                         .onAppear {
-                             
+                            AppMetrica.reportEvent(name: "did_show_main_screen")
                         }
                 }
                 

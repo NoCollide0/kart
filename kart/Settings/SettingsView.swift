@@ -41,7 +41,7 @@ struct SettingsView: View {
                         }
                         Spacer()
                         Button(action: {
-                            //isShareSheetShowing.toggle()
+                            isShareSheetShowing.toggle()
                         }) {
                             VStack {
                                 Image(systemName: "square.and.arrow.up")
@@ -58,13 +58,15 @@ struct SettingsView: View {
                         }
                     }
                     .sheet(isPresented: $isShareSheetShowing, content: {
-                        ShareSheet(activityItems: ["Check out this great app! [App Link]"])
+                        ShareSheet(activityItems: ["Check out this great app! https://apps.apple.com/app/kartingcentral-pro/id6572304004"])
                     })
                     
                     Spacer().frame(height: 20)
                     
                     Button(action: {
-                        
+                        if let url = URL(string: "https://www.termsfeed.com/live/75be33cd-cbc9-4a31-8404-b4669880ff98") {
+                            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                        }
                     }) {
                         VStack {
                             Image(systemName: "doc.text")
